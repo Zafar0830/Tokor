@@ -1,0 +1,52 @@
+.call {
+    display: flex;
+    align-items: center;
+}
+
+.telephone__info {
+    margin-right: 27px;
+}
+
+.telephone__number {
+    display: block;
+    margin-bottom: 7px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 16px;
+    color: $color1;
+    text-decoration: none;
+}
+
+.telephne__text {
+    display: block;
+    text-align: right;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.08em;
+}
+
+.call-back__button {
+    width: 160px;
+    margin-bottom: 7px;
+    padding: 15px;
+    font-size: 15px;
+}
+
+.call-back__text {
+    display: block;
+    font-size: 11px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 0.08em;
+}
+
+.telephone__number__icon {
+    width: 30px;
+    height: 30px;
+    background-image: url("../images/header/phone.svg");
+    background-repeat: no-repeat;
+    background-size: 16px;
+    background-position: center;
+    border: 1px solid $color5;
+    border-radius: 2px;
+}
